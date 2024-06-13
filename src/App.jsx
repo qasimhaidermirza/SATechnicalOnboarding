@@ -24,12 +24,12 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Muhammad Qasim Haider Mirza",
+  name: "Qasim Haider",
   title: "Data Sciencetist | AI Engineer",
   email: "qasimhaidermirza909@gmail.com",
   gitHub: "qasimhaidermirza",
   instagram: "qasimhaidermirza",
-  linkedIn: "Qasim Haider",
+  linkedIn: "qasim-haider-020a0b262",
   medium: "qasimhaidermirza",
   twitter: "qasimhaidermirza",
 };

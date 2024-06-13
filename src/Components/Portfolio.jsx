@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A man working on a PC with graphics showing that he is coding.";
 
 /**
  * Project list
@@ -31,28 +31,34 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Traveling Salesman Problem",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Solved traveling salesman problem via near neighbor and greedy approaches.",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Sentimental Analysis",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Performed sentimental analysis on a pre-existing dataset to evaluate the review of an airline as positive, neutral or negative using naive bayes classifier.",
   },
   {
-    title: "My Resume Site",
+    title: "Grade Prediction",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Trained a decision tree classifier on self-collected dataset to understand how the sleeping habits, co-curricular participation, family and surroundings affects the grades of a student at undergraduate level.",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Titanic problem",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Solved the titanic problem and predicted if an individual would surrvive the incident or not using classification.",
+  },
+  {
+    title: "HR Prediction",
+    description:
+      "Trained ML models to make HR prediction, including random forest, adaboot, xgboot and logistic regression.",
+  },
+  {
+    title: "Price Prediction",
+    description:
+      "Predicted prices using a regression model trained on a pre-existing dataset.",
   },
 ];
 
